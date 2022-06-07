@@ -1,0 +1,62 @@
+.header-style{
+    background-color: #574CFF;
+    color: white;
+    text-align: center;
+}
+
+.forms{
+    text-align: left;
+    margin: 40px;
+}
+
+.boton{
+    background-color: #C20435;
+    color: white;
+    border-radius: 5px;
+    border-color: #AB062C;
+}
+
+.reest{
+    background-color: #E0D9DB;
+    color: black;
+    border-radius: 5px;
+    border-color: #B9B5B6;  
+}
+
+.tabla{
+    text-align: center;
+    position: relative;
+    left: 400px;
+    top: -175px;  
+    margin-right: 700px;  
+    background-color: #BEB5F7;
+    border-style: outset;
+    border-radius: 10x;
+ 
+}
+
+.datos{
+    display: inline-flex;
+    position: absolute;
+    top: 350px;
+    margin-left: 40px;
+
+}
+
+.result{
+    display: inline-flex;
+    position: absolute;
+    top: 400px;
+    margin-left: 40px;
+
+}
+
+.delete{
+    position: absolute;
+    top: 450px;
+    margin: 40px;
+    background-color: #262324;
+    color: white;
+    border-radius: 5px;
+    border-color: #5B5657;
+}

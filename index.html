@@ -1,1 +1,44 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" 
+    crossorigin="anonymous">
+    <title>App de Gastos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script  type='text/javascript' src='script.js'></script>
+</head>
+<body>
+    <header class="header-style">
+        <div>
+            <br><h2>App de Gastos</h2>
+            <h3>ingresa cuánto pagó cada persona</h3><br>
+        </div>
+        
+    </header>
+    <br>
+    <form action="" name="formulario">
+        <div class="forms">
+            <input type="text" id="nombre" maxlength="30" placeholder="Nombre:">
+            <br><br>
+            <input type="number" id="gasto" maxlength="30" placeholder="Gasto:">
+            <br><br>
+            <input type="button" class="boton" onclick="agregardato()" value="Enviar">
+            <input type="reset" class="reest" id="reset">
+        </div>
+    </form>
+	<div class="tabla" id="tab"></div>
+    <div class="datos">
+        <div>Total: $</div>
+        <div id="total"></div>
+    </div>
+    <div class="result">
+        <div>A cada uno le toca aportar: $</div>
+        <div id="parcial"> </div>
+    </div>
+    <button id="borrar" class="delete" onclick="borrar()">Borrar</button>
+</body>
+</html>
